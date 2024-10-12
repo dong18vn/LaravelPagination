@@ -39,10 +39,6 @@ Route::get('/users', ...)->name('users')->paginate(null);
 - The route must have a name
 - The ```paginate()``` macro must be called as last
 
-## Security
-
-If you discover any security related issues, please email [security@ctsoft.de](mailto:security@ctsoft.de) instead of using the issue tracker.
-
 ## License
 
 This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
